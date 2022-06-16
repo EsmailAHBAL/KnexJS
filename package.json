@@ -1,0 +1,23 @@
+{
+    "name": "back-end",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "migrate": "npx knex migrate:latest"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^5.0.1",
+        "dotenv": "^16.0.1",
+        "knex": "^2.1.0",
+        "pg": "^8.7.3"
+    },
+    "devDependencies": {
+        "eslint": "^8.17.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-plugin-import": "^2.26.0"
+    }
+}

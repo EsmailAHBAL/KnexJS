@@ -1,0 +1,10 @@
+const TABLENAME = require('./tableN')
+
+module.exports = [
+    TABLENAME.TB_ITEM_TYPE,
+    TABLENAME.COMPANY,
+    TABLENAME.ADDRESS,
+    TABLENAME.STATE,
+    TABLENAME.COUNTRY,
+    TABLENAME.TB_USER
+]
